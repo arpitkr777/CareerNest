@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <div className='shadow py-4'>
             <div className='container px-4 2xl:px-20 mx-auto flex justify-between items-center'>
-                <img onClick={() => navigate('/')} className='cursor-pointer' src={assets.logo} alt="" />
+                <h1 className='font-bold text-2xl'> CareerNest</h1>
                 {
                     user
                         ? <div className='flex items-center gap-3'>
