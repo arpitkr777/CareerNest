@@ -29,7 +29,9 @@ const Dashboard = () => {
             {/* Navbar for Recuriter Panel */}
             <div className='shadow py-4'>
                 <div className='px-5 flex justify-between items-center'>
-                    <img onClick={e => navigate('/')} className='max-sm:w-32 cursor-pointer' src={assets.logo} alt="" />
+                <Link to={'/'}>
+      <h1 className='font-bold text-2xl'> CareerNest</h1>
+      </Link>
                     {companyData && (
                         <div className='flex items-center gap-3'>
                             <p className='max-sm:hidden'>Welcome, {companyData.name}</p>
